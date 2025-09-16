@@ -1,0 +1,44 @@
+/* Basic page styles */
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  transition: background 0.3s, color 0.3s;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+/* Buttons */
+button {
+  margin: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+/* Light/Dark Mode */
+.dark-mode {
+  background: #222;
+  color: #eee;
+}
+
+/* Form feedback */
+.error {
+  color: red;
+  font-size: 0.9em;
+}
+
+.success {
+  color: green;
+  font-weight: bold;
+}
+
+/* FAQ */
+.faq {
+  margin-bottom: 10px;
+}
+
+.faq-answer {
+  display: none;
+  margin-left: 20px;
+}
